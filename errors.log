@@ -1,0 +1,11 @@
+2024-05-12 00:23:01,633 - An error occurred: Password is not strong. It should be at least 8 characters and contain lowercase, uppercase, numeric, and special characters
+Traceback (most recent call last):
+  File "C:\Users\hp\PycharmProjects\structuredProject\routes\authRoutes.py", line 28, in register
+    raise Exception('Password is not strong. It should be at least 8 characters and contain lowercase, uppercase, numeric, and special characters')
+Exception: Password is not strong. It should be at least 8 characters and contain lowercase, uppercase, numeric, and special characters
+2024-05-12 01:02:54,830 - An error occurred while retrieving instructors: 'Instructor' object has no attribute 'emaill'
+Traceback (most recent call last):
+  File "C:\Users\hp\PycharmProjects\structuredProject\routes\instructorRoute.py", line 18, in get_instructors
+    'email': instructor.emaill,
+             ^^^^^^^^^^^^^^^^^
+AttributeError: 'Instructor' object has no attribute 'emaill'. Did you mean: 'email'?
